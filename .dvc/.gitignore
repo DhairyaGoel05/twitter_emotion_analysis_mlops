@@ -1,3 +1,18 @@
-/config.local
-/tmp
-/cache
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env/
+
+# DVC cache
+.dvc/cache/
+
+# Model artifacts
+*.pkl
+*.h5
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
